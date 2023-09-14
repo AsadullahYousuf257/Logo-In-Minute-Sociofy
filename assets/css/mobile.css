@@ -1,0 +1,245 @@
+
+:root {
+    --custom-red: #ff0028;
+    --white: #ffffff;
+  }
+
+/* Home Mobile */
+@media screen and (min-device-width: 300px) and (max-device-width: 700px) {
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+        flex-direction: row-reverse;
+    }
+    button.navbar-toggler.collapsed {
+        background-color: #fff;
+    }
+    button.navbar-toggler {
+        background-color: #fff;
+    }
+    h1.first-heading {
+        font-weight: 700;
+        font-size: 49px;
+        color: var(--white);
+        font-family: 'Oswald';
+        font-size: 50px;
+    }
+    li.lists {
+        font-size: 19px;
+        font-family: 'Inter';
+        font-weight: 600;
+        color: #fff;
+    }
+    span.number {
+        color: var(--custom-red);
+        font-weight: 600;
+        font-family: 'Oswald';
+        font-size: 27px;
+    }
+    span.call-for-qoutation {
+        font-size: 16px;
+        color: var(--white);
+        font-weight: 400;
+        margin-left: 17px;
+        font-family: 'Inter';
+    }
+    img.logo-img {
+        width: 350px;
+    }
+    span.counter-title {
+        font-size: 22px;
+        font-family: 'Inter';
+        font-weight: 600;
+        position: relative;
+        top: -15px;
+        display: block;
+    }
+    span.counter-description {
+        font-family: 'Inter';
+        font-size: 24px;
+        color: #B5B5B5;
+        font-weight: 500;
+        margin-left: 0px;
+        position: relative;
+        top: -30px;
+        display: block;
+    }
+    span.counter-title-1 {
+        font-size: 22px;
+        font-family: 'Inter';
+        font-weight: 600;
+        position: relative;
+        top: -15px;
+        display: block;
+    }
+    span.counter-description-1,.counter-description-2 {
+        font-family: 'Inter';
+        font-size: 24px;
+        color: #B5B5B5;
+        font-weight: 500;
+        margin-left: 0px;
+        position: relative;
+        top: -30px;
+        display: block;
+    }
+    .container-fluid.background-section-img {
+        padding: 32px 0px;
+    }
+    .tab button.active {
+        border-bottom: 7px solid #FF0028;
+        border-right: 0px solid;
+    }
+    .tab {
+        width: 100%;
+    }
+    .tabcontent {
+        width: 100%;
+        height: 950px;
+    }
+    img.portfolio-logo {
+        margin: 8px 0px;
+    }
+    
+    
+    span.vertical-number {
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 40px;
+        color: var(--custom-red);
+    }
+    span.vertical-tab-title {
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    p.tab-content-title {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 15px;
+        color: #798196;
+    }
+    button.transparent-btn {
+        display: block;
+        width: 100%;
+        margin-top: 8px;
+    }
+    button.btn.btn-outline-success.my-2.my-sm-0.Order-now {
+        display: block;
+        width: 87%;
+    }
+    .offer-heading {
+        font-weight: 700;
+        font-size: 49px;
+        color: var(--white);
+        font-family: 'Oswald';
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+    h2.service-offer {
+        font-family: 'Oswald';
+        font-weight: 700;
+        font-size: 47px;
+    }
+    .col-md-6.service-column.ml-1 {
+        width: 100% !important;
+        max-width: 100%;
+        margin-top: 13px !important;
+        margin-bottom: 11px;
+    }
+    img.what-say-img {
+        width: 313px;
+    }
+    img.launch-your-business {
+        width: 170px;
+        margin-bottom: 9px;
+    }
+    .container.laucnh-your-business-online {
+        padding: 40px 15px !important;
+    }
+    img.launch-your-business {
+        width: 155px;
+        margin-bottom: 9px;
+    }
+    h1.title-contact-form {
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31.4px;
+        color: var(--white);
+        margin: 0pc 15px 0 71px;
+        margin-bottom: 16px;
+    }
+    .work {
+        padding-left: 15px !important;
+    }
+    .col-md-4.contact-form-inner-column-bg {
+        display: none;
+    }
+    img.service-offer-img {
+        width: 342px;
+        margin-bottom: 16px;
+        height: 395px;
+    }
+    img.offer-logo {
+        width: 340px;
+        position: relative;
+        left: -21px;
+    }
+    p.copyright-txt {
+        text-align: center;
+    }
+    /* Professional Page */
+    h1.professional-title {
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30.83px;
+        color: var(--white);
+    }
+    .container-fluid.black-bg {
+        background-color: #000;
+        padding: 59px 85px;
+        text-align: center;
+    }
+    .container.professional-service {
+        padding: 60px 24px;
+    }
+    h1.professional-page-title {
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 47.36px;
+        text-transform: capitalize;
+    }
+    img.professional-page-img {
+        width: 361px;
+        height: 655px;
+    }
+    h2.business-and-trade {
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 47.36px;
+        text-transform: capitalize;
+    }
+    .col-md-6.profesional-page-btn-div {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    /* Portfolio Page */
+    .wrapper ul li {
+        width: calc(42% - 0px);
+        margin: 30px 15px 0;
+        height: 166px;
+        background-size: cover;
+        background-position: center center;
+        float: left;
+        box-shadow: 0 0px 27px 1px rgb(0 0 0 / 36%);
+        border-radius: 20px;
+    }
+    /* Service Page */
+    .container.service-page {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    }
